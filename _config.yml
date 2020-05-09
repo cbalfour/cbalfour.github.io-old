@@ -25,6 +25,7 @@ description: Craig Balfour is a linux and open-source software enthusiast living
 navbar-links:
   About Me: "aboutme"
   Resources:
+    - School of Information Technology: "http://sit.uct.ac.za/"
     - University of Cape Town: "http://www.uct.ac.za/"
   Author's home: "http://cbalfour.github.io"
 
@@ -40,13 +41,13 @@ author:
   name: Craig Balfour
   #email: "youremail@domain.com"
   facebook: craig.balfour # eg. daattali
-  github: cbalfour eg. daattali
+  github: cbalfour # eg. daattali
   twitter: craigbalfour   # eg. daattali
   linkedin: craigbalfour  # eg. daattali
-  xing: yourname      # eg. daattali
-  stackoverflow: 851984/craig  # eg. "3943160/daattali"
-  instagram: yourname # eg. daattali
-  youtube: yourlink # eg. user/daattali or channel/daattali
+  #xing: yourname      # eg. daattali
+  #stackoverflow: 851984/craig  # eg. "3943160/daattali"
+  #instagram: yourname # eg. daattali
+  #youtube: yourlink # eg. user/daattali or channel/daattali
 
 # Select which links to show in the footer
 footer-links-active:
@@ -107,7 +108,7 @@ defaults:
       path: "" # all files
     values:
       layout: "page"
-      show-avatar: true
+      show-avatar: false
 
 # Use tags pages (not recommended if you are deploying via GitHub pages, only set to true if deploying locally with ruby)
 link-tags: false
